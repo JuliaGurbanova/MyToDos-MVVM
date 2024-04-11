@@ -17,6 +17,18 @@
 		C16CA53A2BC7FFF800698DFD /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CA5392BC7FFF800698DFD /* AddTaskView.swift */; };
 		C16CA53C2BC8017D00698DFD /* AddTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CA53B2BC8017D00698DFD /* AddTaskViewModel.swift */; };
 		C16CA53E2BC8024800698DFD /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CA53D2BC8024800698DFD /* AddTaskViewController.swift */; };
+		C16CA5412BC807ED00698DFD /* MockNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CA5402BC807ED00698DFD /* MockNavigationController.swift */; };
+		C16CA5432BC8084700698DFD /* InMemoryCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CA5422BC8084700698DFD /* InMemoryCoreDataManager.swift */; };
+		C16CA5452BC818FB00698DFD /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CA5442BC818FB00698DFD /* HomeViewModelTests.swift */; };
+		C16CA5472BC81F2C00698DFD /* HomeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CA5462BC81F2C00698DFD /* HomeViewTests.swift */; };
+		C16CA5492BC820B800698DFD /* HomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CA5482BC820B800698DFD /* HomeViewControllerTests.swift */; };
+		C16CA54B2BC8215600698DFD /* AddListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CA54A2BC8215600698DFD /* AddListViewControllerTests.swift */; };
+		C16CA54D2BC8227400698DFD /* AddListViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CA54C2BC8227400698DFD /* AddListViewTests.swift */; };
+		C16CA54F2BC8237A00698DFD /* AddListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CA54E2BC8237A00698DFD /* AddListViewModelTests.swift */; };
+		C16CA5512BC828D100698DFD /* TaskListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CA5502BC828D100698DFD /* TaskListViewControllerTests.swift */; };
+		C16CA5532BC8295C00698DFD /* TaskListViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CA5522BC8295C00698DFD /* TaskListViewTests.swift */; };
+		C16CA5552BC82C3600698DFD /* AddTaskViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CA5542BC82C3600698DFD /* AddTaskViewTests.swift */; };
+		C16CA5572BC82D1100698DFD /* AddTaskViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16CA5562BC82D1100698DFD /* AddTaskViewModelTests.swift */; };
 		C18275562BC6B860008650F8 /* AddListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18275552BC6B860008650F8 /* AddListViewController.swift */; };
 		C18275582BC6B92D008650F8 /* AddListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18275572BC6B92D008650F8 /* AddListView.swift */; };
 		C182755A2BC6B95C008650F8 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18275592BC6B95C008650F8 /* BackButton.swift */; };
@@ -29,7 +41,6 @@
 		C193A96F2BBD85CC00F0E49A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C193A96E2BBD85CC00F0E49A /* ViewController.swift */; };
 		C193A9742BBD85CD00F0E49A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C193A9732BBD85CD00F0E49A /* Assets.xcassets */; };
 		C193A9772BBD85CD00F0E49A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C193A9762BBD85CD00F0E49A /* Base */; };
-		C193A9822BBD85CD00F0E49A /* MyToDos_MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C193A9812BBD85CD00F0E49A /* MyToDos_MVVMTests.swift */; };
 		C193A98C2BBD85CD00F0E49A /* MyToDos_MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C193A98B2BBD85CD00F0E49A /* MyToDos_MVVMUITests.swift */; };
 		C193A98E2BBD85CD00F0E49A /* MyToDos_MVVMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C193A98D2BBD85CD00F0E49A /* MyToDos_MVVMUITestsLaunchTests.swift */; };
 		C193A9A12BBD87E400F0E49A /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C193A99D2BBD87E400F0E49A /* Task+CoreDataClass.swift */; };
@@ -83,6 +94,18 @@
 		C16CA5392BC7FFF800698DFD /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 		C16CA53B2BC8017D00698DFD /* AddTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewModel.swift; sourceTree = "<group>"; };
 		C16CA53D2BC8024800698DFD /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		C16CA5402BC807ED00698DFD /* MockNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNavigationController.swift; sourceTree = "<group>"; };
+		C16CA5422BC8084700698DFD /* InMemoryCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryCoreDataManager.swift; sourceTree = "<group>"; };
+		C16CA5442BC818FB00698DFD /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		C16CA5462BC81F2C00698DFD /* HomeViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTests.swift; sourceTree = "<group>"; };
+		C16CA5482BC820B800698DFD /* HomeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTests.swift; sourceTree = "<group>"; };
+		C16CA54A2BC8215600698DFD /* AddListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListViewControllerTests.swift; sourceTree = "<group>"; };
+		C16CA54C2BC8227400698DFD /* AddListViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListViewTests.swift; sourceTree = "<group>"; };
+		C16CA54E2BC8237A00698DFD /* AddListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListViewModelTests.swift; sourceTree = "<group>"; };
+		C16CA5502BC828D100698DFD /* TaskListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewControllerTests.swift; sourceTree = "<group>"; };
+		C16CA5522BC8295C00698DFD /* TaskListViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewTests.swift; sourceTree = "<group>"; };
+		C16CA5542BC82C3600698DFD /* AddTaskViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewTests.swift; sourceTree = "<group>"; };
+		C16CA5562BC82D1100698DFD /* AddTaskViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewModelTests.swift; sourceTree = "<group>"; };
 		C18275552BC6B860008650F8 /* AddListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListViewController.swift; sourceTree = "<group>"; };
 		C18275572BC6B92D008650F8 /* AddListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListView.swift; sourceTree = "<group>"; };
 		C18275592BC6B95C008650F8 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
@@ -98,7 +121,6 @@
 		C193A9762BBD85CD00F0E49A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C193A9782BBD85CD00F0E49A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C193A97D2BBD85CD00F0E49A /* MyToDos-MVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyToDos-MVVMTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C193A9812BBD85CD00F0E49A /* MyToDos_MVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDos_MVVMTests.swift; sourceTree = "<group>"; };
 		C193A9872BBD85CD00F0E49A /* MyToDos-MVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyToDos-MVVMUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C193A98B2BBD85CD00F0E49A /* MyToDos_MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDos_MVVMUITests.swift; sourceTree = "<group>"; };
 		C193A98D2BBD85CD00F0E49A /* MyToDos_MVVMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDos_MVVMUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -150,6 +172,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C16CA53F2BC807D500698DFD /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				C16CA5402BC807ED00698DFD /* MockNavigationController.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 		C193A95E2BBD85CC00F0E49A = {
 			isa = PBXGroup;
 			children = (
@@ -190,7 +220,18 @@
 		C193A9802BBD85CD00F0E49A /* MyToDos-MVVMTests */ = {
 			isa = PBXGroup;
 			children = (
-				C193A9812BBD85CD00F0E49A /* MyToDos_MVVMTests.swift */,
+				C16CA53F2BC807D500698DFD /* Mocks */,
+				C16CA5422BC8084700698DFD /* InMemoryCoreDataManager.swift */,
+				C16CA5442BC818FB00698DFD /* HomeViewModelTests.swift */,
+				C16CA5462BC81F2C00698DFD /* HomeViewTests.swift */,
+				C16CA5482BC820B800698DFD /* HomeViewControllerTests.swift */,
+				C16CA54A2BC8215600698DFD /* AddListViewControllerTests.swift */,
+				C16CA54C2BC8227400698DFD /* AddListViewTests.swift */,
+				C16CA54E2BC8237A00698DFD /* AddListViewModelTests.swift */,
+				C16CA5502BC828D100698DFD /* TaskListViewControllerTests.swift */,
+				C16CA5522BC8295C00698DFD /* TaskListViewTests.swift */,
+				C16CA5542BC82C3600698DFD /* AddTaskViewTests.swift */,
+				C16CA5562BC82D1100698DFD /* AddTaskViewModelTests.swift */,
 			);
 			path = "MyToDos-MVVMTests";
 			sourceTree = "<group>";
@@ -531,7 +572,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C193A9822BBD85CD00F0E49A /* MyToDos_MVVMTests.swift in Sources */,
+				C16CA5492BC820B800698DFD /* HomeViewControllerTests.swift in Sources */,
+				C16CA5432BC8084700698DFD /* InMemoryCoreDataManager.swift in Sources */,
+				C16CA54F2BC8237A00698DFD /* AddListViewModelTests.swift in Sources */,
+				C16CA54B2BC8215600698DFD /* AddListViewControllerTests.swift in Sources */,
+				C16CA54D2BC8227400698DFD /* AddListViewTests.swift in Sources */,
+				C16CA5572BC82D1100698DFD /* AddTaskViewModelTests.swift in Sources */,
+				C16CA5512BC828D100698DFD /* TaskListViewControllerTests.swift in Sources */,
+				C16CA5552BC82C3600698DFD /* AddTaskViewTests.swift in Sources */,
+				C16CA5472BC81F2C00698DFD /* HomeViewTests.swift in Sources */,
+				C16CA5412BC807ED00698DFD /* MockNavigationController.swift in Sources */,
+				C16CA5452BC818FB00698DFD /* HomeViewModelTests.swift in Sources */,
+				C16CA5532BC8295C00698DFD /* TaskListViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
